@@ -1,10 +1,8 @@
-const Discord = require("discord.js");
+﻿const Discord = require("discord.js");
 const client = new Discord.Client();
 const { MessageEmbed } = require("discord.js");
 
-client.login(
-  "Nzc2MDQ2MTM5NzYxNjIzMDUw.GnvQBR.u9HFT_2dTCwoIoR1lQTW_IBBBuA_GW2qys3HCU"
-);
+client.login("Nzc2MDQ2MTM5NzYxNjIzMDUw.GAT6QA.b_FZkUadvcgwTKQ01U7seWPpg0DV0FKLNMk2G4");
 
 client.on("message", (message) => {
   if (message.content === "DACE STRESS") {
